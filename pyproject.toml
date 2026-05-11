@@ -7,7 +7,9 @@ requires-python = ">=3.13"
 dependencies = [
     "ipykernel>=7.2.0",
     "matplotlib>=3.10.9",
+    "nbconvert[webpdf]>=7.17.1",
     "opencv-python>=4.13.0.92",
+    "pandoc>=2.4",
     "requests>=2.33.1",
     "scikit-image>=0.26.0",
 ]
